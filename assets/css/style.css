@@ -7,7 +7,7 @@
     background-color: #676767;
 }
 
-.bg-color-three-reasons{
+.bg-color-three-reasons {
     background-color: #fff;
 }
 
@@ -33,6 +33,10 @@
 
 .bg-color-work-history {
     background-color: #9b5b96;
+}
+
+.bg-color-contact {
+    background-color: #fff;
 }
 
 /*-----------------special paddings/margins/text*/
@@ -68,7 +72,7 @@ h4 {
     float: none;
 }
 
-.history-heading ,
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -219,7 +223,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
+.social-links li a i:hover {
     background-color: #e84610;
 }
 
@@ -239,14 +243,15 @@ footer {
 }
 
 /*-----------------Person Info*/
-.personal-info-item{
+
+.personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
 }
 
 .personal-info-item .key,
-.personal-info-item .value{
+.personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
 }
@@ -263,17 +268,17 @@ footer {
     vertical-align: top;
 }
 
-.personal-info-item .key p{
+.personal-info-item .key p {
     font-weight: 700px;
 }
 
 .personal-info-item .value {
     position: relative;
     width: 60%;
-    }
-    
-    /*-----------------skills*/
-    
+}
+
+/*-----------------skills*/
+
 .progress {
     position: relative;
     height: 25px;
@@ -293,9 +298,9 @@ footer {
     margin: 40px 20px;
 }
 
-    /*-----------------Work History*/
+/*-----------------Work History*/
 
-.history-heading{
+.history-heading {
     color: #fafafa;
     margin-bottom: 50px;
 }
@@ -339,4 +344,38 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*-----------------Contact Form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+
+}
+
+/*-----------------CMedia Query*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
